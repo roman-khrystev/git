@@ -8,8 +8,8 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat ~/.ssh/id_rsa.pub
 
 4. 🔧 Adding a key to GitHub.
-Go to GitHub SSH Settings
-Click the "New SSH key" button
+Go to GitHub SSH Settings.
+Click the "New SSH key" button.
 Paste the copied key there and set any name (for example, "My Laptop")
 
 5. 📡 Checking the connection.
