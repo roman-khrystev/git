@@ -1,19 +1,19 @@
-1. ✅ Checking for the presence of an SSH key
+1. ✅ Checking for the presence of an SSH key.
 ls ~/.ssh/id_rsa.pub
 
-2. 🗝 Create a new SSH key
+2. 🗝 Create a new SSH key.
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
-3. 📋 Copying SSH key
+3. 📋 Copying SSH key.
 cat ~/.ssh/id_rsa.pub
 
-4. 🔧 Adding a key to GitHub
-Go to GitHub SSH Settings
-Click the "New SSH key" button
+4. 🔧 Adding a key to GitHub.
+Go to GitHub SSH Settings.
+Click the "New SSH key" button.
 Paste the copied key there and set any name (for example, "My Laptop")
 
-5. 📡 Checking the connection
+5. 📡 Checking the connection.
 ssh -T git@github.com
 
-6. 📦 Cloning a repository
-git clone git@github.com:name/repo.git
+6. 📦 Cloning a repository.
+git clone git@github.com:name/repo.git  
